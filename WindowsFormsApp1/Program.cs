@@ -14,6 +14,7 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
+            var p = new person();
             //hello word(1)
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
